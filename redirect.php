@@ -24,6 +24,6 @@ switch ($request) {
 }
 
 $_SESSION['site'] = $redirect;
-require_once __DIR__ . 'header.php';
+require_once __DIR__ . '/core/header.php';
 require_once __DIR__ . $redirect ?? __DIR__ . 'index.php';
-require_once __DIR__ . 'footer.php';
+require_once __DIR__ . '/core/footer.php';
